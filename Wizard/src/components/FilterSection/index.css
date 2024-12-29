@@ -1,0 +1,28 @@
+
+.profileDetails {
+    background-color: burlywood;
+    border-radius: 30px;
+    width: 100%;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.EmpTypeCheckbox {
+    margin-right: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+@media (min-width:768px){
+    .FilterSectionI {
+        margin-left: 40px;
+       }
+    .profileDetails {
+        background-color: burlywood;
+        border-radius: 30px;
+        padding: 20px;
+        width: 90%;
+        border: 1px solid red;
+    }
+}

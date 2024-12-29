@@ -1,0 +1,50 @@
+
+.Jobs-main-Page {
+    width: 100%;
+    min-height: 100vh;
+    background-color: lightblue;
+}
+
+.filter-section{
+    width: 100%;
+    padding: 20px;
+}
+
+.jobs-search-section {
+    width: 100%;
+    height: 100%;
+}
+
+.search-bar {
+    display: none;
+}
+
+
+@media (min-width:768px) {
+    .jobspage-combine-section {
+        width: 100%;
+        display: flex;
+    }
+
+    .search-bar {
+        display: block;
+        width: 50%;
+        margin-left: 35px;
+    }
+    
+    .filter-section {
+        padding: 10px;
+        width: 35%;
+        height: 100%;
+    }
+    
+    .jobs-search-section {
+        width: 65%;
+        height: 100%;
+    }
+
+    .search-small {
+        display: none;
+    }
+    
+}

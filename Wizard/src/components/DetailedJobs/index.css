@@ -1,0 +1,52 @@
+
+.Fullpage-Cont {
+    width: 100%;
+    background-color: bisque;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 25px;
+}
+
+.Top-section {
+    display: flex;
+}
+
+.img-logo-allJobs {
+    height: 80px;
+    width: 80px;
+    margin-right: 25px;
+}
+
+.Mid-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.First-mid-section {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.First-bottom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.viewSkills-Section {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-skills {
+    margin-right: 10px;
+}
+
+.LifeAtCompany-Section {
+    display: flex;
+}
+

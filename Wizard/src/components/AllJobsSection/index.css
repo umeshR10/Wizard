@@ -1,0 +1,67 @@
+.company-list{
+    width: 90%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 25px;
+}
+.ul-small{
+    width: 100%;
+}
+
+.top-sec{
+    display: flex;
+}
+
+.img-for-alljobs {
+    height: 80px;
+    width: 80px;
+    margin-right: 25px;
+}
+
+.mid-sec {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-first-mid-sec {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (min-width:768px){
+
+    .company-list{
+        width: 85%;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: beige;
+        border-radius: 25px;
+    }
+    
+    .top-sec{
+        display: flex;
+    }
+    
+    .img-for-alljobs {
+        height: 80px;
+        width: 80px;
+        margin-right: 25px;
+    }
+    
+    .mid-sec {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .inner-first-mid-sec {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}

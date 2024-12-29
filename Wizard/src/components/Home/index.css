@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .Home-main-cont {
+    height: 100vh;
+    width: 100%;
+    /* background-color: lightblue; */
+    background-image: url("Home.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .Home-text-cont{
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: rgb(2, 2, 48);
+  }
