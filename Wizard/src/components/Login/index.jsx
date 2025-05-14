@@ -19,6 +19,7 @@ const Login = () => {
 
     const api = "https://apis.ccbp.in/login";
 
+    // setting body for fetching data
     const userId = {
       username: allValues.username,
       password: allValues.password,
@@ -31,13 +32,15 @@ const Login = () => {
 
     const response = await fetch(api, options);
     const fetchData = await response.json();
-    console.log(fetchData);
+    // console.log(fetchData);
 
     if (response.ok === true) {
+      // if getting response then saving jwt_token and hiding error msg
       setValues({ ...allValues, showMsg: false, errorMsg: "" });
       Cookies.set("jwt_token", fetchData.jwt_token);
       navigate("/");
     } else {
+      // if not getting response then showing error msg
       setValues({ ...allValues, showMsg: true, errorMsg: fetchData.error_msg });
     }
   };
@@ -58,7 +61,7 @@ const Login = () => {
 
   return (
     <div className="login-main-cont">
-        <h1 className="text-primary"> 𝓦𝓲𝔃𝓪𝓻𝓭 </h1>
+      <h1 className="text-primary"> 𝓦𝓲𝔃𝓪𝓻𝓭 </h1>
       <form
         onSubmit={afterClickLogin}
         className="form-control w-25 form-layout"
